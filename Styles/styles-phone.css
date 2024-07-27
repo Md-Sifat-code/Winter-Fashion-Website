@@ -1,0 +1,93 @@
+@media only screen and (max-width: 576px) {
+    .full-header {
+        width: auto;
+        height: auto;
+        background: rgb(255, 251, 240);
+
+    }
+
+    .heading {
+        /* flex-direction: column; */
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .navigation {
+        display: none;
+
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        margin-left: 0px;
+        margin-top: -20px;
+        width: 100%;
+    }
+
+    .discription {
+        width: 100%;
+        height: 176px;
+        grid-template-columns: 1fr;
+        /* gap: 20px; */
+        /* margin-top: ; */
+    }
+
+    .discription>h2 {
+        font-family: Bebas Neue;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 50px;
+
+    }
+
+    .discription>p {
+        color: rgb(62, 62, 62);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .discription>button {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .hero-bg{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .hero-bg>img {
+        width: 361.21px;
+        height: 367.79px;
+        margin-top: 100px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        margin-left: 120px;
+    }
+
+    .ending {
+        grid-template-columns: 1fr;
+    }
+
+    .icons {
+        margin-left: 50px;
+    }
+
+    .ending-pic>img {
+        width: 100%;
+    }
+
+}
