@@ -1,0 +1,346 @@
+/* Font Styles */
+.great-vibes {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bebas {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Part  */
+.full-header {
+    width: 100%;
+    height: auto;
+    background: rgb(255, 251, 240);
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 39px;
+    margin-left: 130px;
+    width: 291.11px;
+    height: 39.27px;
+    border: 2px dotted gray;
+}
+
+.logo>img {
+    width: 291.11px;
+    height: 39.27px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+    margin-right: 130px;
+}
+
+.navigation>nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navigation>nav>ul>li {
+    margin-left: 50px;
+    color: rgb(60, 60, 60);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+/* Hero Part  */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.discription {
+    /* border: 2px solid red; */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background: transparent;
+}
+
+.discription>h2 {
+    font-family: Bebas Neue;
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 50px;
+
+
+    margin-left: 135px;
+    color: rgb(54, 57, 88);
+}
+
+span {
+    color: rgb(250, 190, 76);
+}
+
+.discription>p {
+    margin-left: 135px;
+    color: rgb(62, 62, 62);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: -70px;
+}
+
+.discription>button {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+
+    background: linear-gradient(180.00deg, rgb(164, 188, 70), rgb(133, 160, 25) 100%);
+    margin-left: 135px;
+    margin-top: -80px;
+}
+
+.discription>button>img {
+    width: 20.36px;
+    height: 22px;
+    /* background: rgb(255, 255, 255); */
+}
+
+.discription>button>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+/* Woman Section Styles */
+.Woman,
+.Man {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+}
+
+.title {
+    margin-left: 135px;
+    color: rgb(54, 57, 88);
+    font-family: Bebas Neue;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 31px;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 370px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 20px; */
+
+
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
+
+.ex {
+    width: 334px;
+    height: 327px;
+    border-radius: 20px;
+
+    background: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex>img {
+    width: 210px;
+    height: 257px;
+}
+
+.card>h5 {
+    color: rgb(54, 57, 88);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.card>p {
+    color: rgb(62, 62, 62);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 13px;
+}
+
+.buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+}
+
+.buy>p {
+    color: rgb(250, 190, 76);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.buy>button {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+
+    background: linear-gradient(180.00deg, rgb(164, 188, 70), rgb(133, 160, 25) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.buy>button>img {
+    width: 20.36px;
+    height: 22px;
+
+}
+
+.buy>button>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Ending part CSS */
+.ending {
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 83px;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 489px;
+    height: 438px;
+    margin-left: 135px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    border-radius: 20px;
+
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
+
+.box-logo>img {
+    width: 78px;
+    height: 82px;
+}
+
+.box-discription>h6 {
+    color: rgb(54, 57, 88);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.box-discription>p {
+    color: rgb(62, 62, 62);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.ending-pic>img {
+    width: 599px;
+    height: 354.07px;
+}
